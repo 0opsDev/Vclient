@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{49c25008-b742-4ad3-930a-dc8abb951ef5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\local">
+      <UniqueIdentifier>{aece610a-ceed-4000-8f8f-78e74fabd3ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\audio">
+      <UniqueIdentifier>{ed48fb65-12ab-491f-9c7b-dc28285d1a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\core">
+      <UniqueIdentifier>{da314c3b-4fc9-4ea7-a5ed-a03e79e87eec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\local\executeClass.cpp">
+      <Filter>Source Files\src\local</Filter>
+    </ClCompile>
+    <ClCompile Include="src\local\packer.cpp">
+      <Filter>Source Files\src\local</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\SoundProgram.cpp">
+      <Filter>Source Files\src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\SoundRunner.cpp">
+      <Filter>Source Files\src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\Main.cpp">
+      <Filter>Source Files\src\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\local\executeClass.h">
+      <Filter>Source Files\src\local</Filter>
+    </ClInclude>
+    <ClInclude Include="src\local\packer.h">
+      <Filter>Source Files\src\local</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\SoundProgram.h">
+      <Filter>Source Files\src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\SoundRunner.h">
+      <Filter>Source Files\src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Main.h">
+      <Filter>Source Files\src\core</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
