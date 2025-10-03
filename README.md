@@ -1,4 +1,5 @@
-no idea what this is about, i think i just wanted to make an installer for farquhar engine or something, and got side tracked and made some 'shitpost' program that builds itself plays audio
+no idea what this is about, i think i just wanted to make an installer for farquhar engine or something, and got side tracked and made some 'shitpost' program that builds itself plays audio,
+anyways includes basic functions to execute things, and read things to and from binary
 
 Documentation
 ---
